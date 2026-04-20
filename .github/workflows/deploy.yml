@@ -27,3 +27,9 @@ jobs:
           aws cloudformation deploy \
           --template-file cfn/cloudwatch.yaml \
           --stack-name cw-stack
+          
+      - run: |
+          aws cloudformation deploy \
+          --template-file cfn/sns.yaml \
+          --stack-name sns-stack \
+          --capabilities CAPABILITY_NAMED_IAM
