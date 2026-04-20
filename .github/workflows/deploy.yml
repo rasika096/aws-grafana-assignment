@@ -30,6 +30,6 @@ jobs:
           
       - run: |
           aws cloudformation deploy \
-          --template-file cfn/sns.yaml \
+          --template-file cfn/sns-topic.yaml \
           --stack-name sns-stack \
           --capabilities CAPABILITY_NAMED_IAM
