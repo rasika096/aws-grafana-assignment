@@ -1,0 +1,1 @@
+GitHub Actions → CloudFormation → AWS Infra → Grafana Dashboard → SNS Alerts
